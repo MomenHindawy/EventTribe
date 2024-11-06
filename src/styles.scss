@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --main-color: #191970;
+    --main-font: font-family: "Jost", sans-serif;
+
+}
+
+
+
+.main-font {
+    font-family: var(--main-font);
+}
+
+.text-main {
+    color: var(--main-color)
+}
+
+.active-main {
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 7px;
+}

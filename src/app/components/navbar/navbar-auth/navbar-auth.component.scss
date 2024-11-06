@@ -1,0 +1,39 @@
+.Logo-brand {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-align: center;
+
+}
+
+
+
+.search {
+    width: 400px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+
+
+
+}
+
+.a-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 18px;
+    padding: 5px;
+
+    a {
+        color: black;
+        font-family: "Jost", sans-serif;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-align: center;
+
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "routes": [
+    "/",
+    "/blank",
+    "/blank/creatE",
+    "/blank/emily",
+    "/blank/emily/aboutMe",
+    "/blank/emily/calender",
+    "/blank/emily/myBooking",
+    "/blank/emily/myEvent",
+    "/blank/emily/settings",
+    "/blank/favorite",
+    "/blank/HCentre",
+    "/blank/home",
+    "/creatE",
+    "/findE",
+    "/HCentre",
+    "/home",
+    "/login",
+    "/signUp"
+  ]
+}

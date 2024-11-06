@@ -1,0 +1,39 @@
+<div class="container">
+
+    <div class="row profile py-4 justify-align-center">
+        <div class="d-flex justify-content-center  g-0 gap-0 ">
+            <div class="col-md-4 ">
+                <img src="./assets/Images/Profile img.png" class="w-75" alt="">
+            </div>
+            <div class="col-md-6  my-3">
+                <h2 class="text-main main-font mb-4">Emily Thompson</h2>
+                <h5 class="mb-3">Data of Birth : <span>23/1/2004</span></h5>
+                <h5 class="mb-3">Email ID : <span>SomeThingHere&#64;server.com</span></h5>
+                <h5 class="mb-3">Contact Number : <span>1234567890</span></h5>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <ul class="nav justify-content-center  my-5 ">
+        <li class="nav-item">
+            <a routerLink="aboutMe" routerLinkActive="text-main" class="nav-link active">About me</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="myBooking" routerLinkActive="text-main" class="nav-link">My Bookings</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="myEvent" routerLinkActive="text-main" class="nav-link">My Events</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="calender" routerLinkActive="text-main" class="nav-link">Calender</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="settings" routerLinkActive="text-main" class="nav-link">Settings</a>
+        </li>
+
+    </ul>
+    <router-outlet></router-outlet>
+</div>
